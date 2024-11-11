@@ -5,6 +5,11 @@ body {
   color: #ffffff;
   font-family: Arial, sans-serif;
 }
+
+a, a:link, a:visited, a:hover, a:active {
+  color: #ccc;
+}
+
 canvas {
     display: block;
     width: 100%;
