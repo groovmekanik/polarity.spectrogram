@@ -1,0 +1,5 @@
+*.DS_Store
+*.cursorrules
+.vscode
+node_modules
+
