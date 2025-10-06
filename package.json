@@ -3,13 +3,8 @@
   "version": "1.0.0",
   "description": "A spectrogram visualizer for audio input",
   "type": "module",
+  "private": true,
   "scripts": {
-    "start": "http-server -c-1 --ssl --cert ./cert.pem --key ./key.pem",
-    "lint": "standard",
-    "lint:fix": "standard --fix"
-  },
-  "devDependencies": {
-    "http-server": "^14.1.1",
-    "standard": "^17.0.0"
+    "dev": "node server.cjs"
   }
 }

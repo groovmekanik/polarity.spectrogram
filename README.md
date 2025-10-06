@@ -15,5 +15,16 @@ A real-time audio spectrogram visualizer with time-frequency reassignment and MI
 
 ## Requirements
 - A modern web browser (Chrome, Firefox, Safari, Edge)
-- Node.js and npm (for development and running the local server)
+- Node.js (for running the local dev server). No project dependencies or node_modules required.
 
+## Development
+```bash
+npm run dev
+# then open http://127.0.0.1:5173
+```
+
+Notes:
+- Uses a tiny zero-dependency static server (`server.cjs`).
+- If `node_modules` or `package-lock.json` exist, they can be deleted.
+
+### See report.md for future development. Modified Repo for zero dependancies (too many node packages before)
